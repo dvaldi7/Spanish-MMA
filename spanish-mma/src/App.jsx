@@ -12,16 +12,16 @@ function App() {
             {/* HEADER */}
             <header id='header' className='h-24 bg-custom-red text-white font-sans'>
                 <div className='container mx-auto flex flex-row bebas'>
-      
+
 
                     <div id='logo' className='flex-1'>
 
-                        <div className='w-64 pt-0.5 pb-0.5 bg-custom-gold text-custom-black text-center rounded-sm
+                        <div className='w-64 mt-1.5 pt-0.5 pb-0.5 bg-custom-gold text-custom-black text-center rounded-md
                         hover:bg-gray-400 tracking-wider cursor-pointer overflow-hidden transition duration-300
                         flex flex-row'>
-                            
+
                             <span className='block float-left ml-11 mt-5'>
-                                <img src='/octagono.png'/>
+                                <img src='/octagono.png' />
                             </span>
 
                             <h3 className='block text-3xl mt-1.5 ml-7 float-right mr-16 transition duration-100'>
@@ -31,19 +31,20 @@ function App() {
 
                     </div>
 
-                    <nav className='flex-1 flex flex-row list-none text-custom-gold'>
-                        <ul>
-                            <li>
-                                <Link to='#'>Inicio</Link>
+                    <nav className='flex-1 '>
+                        <ul className='flex flex-row text-white h-20 items-center justify-end text-2xl
+                        text-center'>
+                            <li className='menu-item'>
+                                <Link to='#' className='menu-item-a'>Inicio</Link>
                             </li>
-                            <li>
-                                <Link to='#'>Peleadores</Link>
+                            <li className='menu-item'>
+                                <Link to='#' className='menu-item-a'>Peleadores</Link>
                             </li>
-                            <li>
-                                <Link to='#'>Compañías</Link>
+                            <li className='menu-item'>
+                                <Link to='#' className='menu-item-a'>Compañías</Link>
                             </li>
-                            <li>
-                                <Link to='#'>Eventos</Link>
+                            <li className='menu-item'>
+                                <Link to='#' className='menu-item-a'>Eventos</Link>
                             </li>
                         </ul>
                     </nav>

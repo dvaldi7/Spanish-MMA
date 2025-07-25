@@ -48,4 +48,12 @@
 
 
 
-@layer components {}
+@layer components {
+  .menu-item{
+    @apply mr-5 ml-5 tracking-wider flex-none
+  }
+
+  .menu-item-a{
+    @apply block transition duration-200 hover:text-custom-gold transform hover:scale-125
+  }
+}

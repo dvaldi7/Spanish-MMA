@@ -28,6 +28,7 @@ export default {
         'spin-slow':'spin 7s linear infinite',
         'from-bellow': 'fromBellow 500ms linear',
         'from-right': 'fromRight 300ms linear',
+        'bg-banner': 'mmaBanner 10s linear',
       },
       keyframes:{
         fromBellow:{
@@ -38,7 +39,12 @@ export default {
         fromRight:{
           '0%': { transform: 'translateX(200%)' },
           '100%': { transform: 'translateX(0%)' },
-        }
+        },
+        mmaBanner:{
+          '0%': {'background-position': '0px 0px' },
+          '50%': {'background-position': '-100px -100px' },
+          '100%': {'background-position': '0px 0px' },
+        },
       }
     },
   },

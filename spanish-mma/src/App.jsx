@@ -63,8 +63,8 @@ function App() {
             <section className='container w-11/12 mx-auto'>
 
                 {/* INICIO BANNER */}
-                <div id='banner' className='h-64 w-full border-8 border-white mx-auto overflow-hidden shadow m-5
-             bg-banner bg-cover bg-no-repeat'>
+                <div id='banner' className='h-52 w-full border-8 border-white mx-auto overflow-hidden shadow m-5
+             bg-banner bg-cover bg-no-repeat animate-bg-banner'>
 
                 </div>
                 {/* FIN BANNER */}

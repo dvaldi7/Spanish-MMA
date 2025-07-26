@@ -11,6 +11,7 @@ export default {
       },
       backgroundImage: {
         "body-pattern": "url('/pattern.png')",
+        "banner": "url('/mmabanner.jpg')",
       },
       colors: {
         'custom-blue': '#1e3a8a',

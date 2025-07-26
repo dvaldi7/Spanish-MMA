@@ -9,10 +9,10 @@ function App() {
     return (
         <div className='bg-body-pattern bg-scroll min-h-screen'>
 
-            {/* HEADER */}
+            {/* INICIO HEADER */}
             <header id='header' className='h-24 bg-custom-red text-white font-sans
             xs:h-36'>
-                
+
                 <div className='container w-11/12 mx-auto flex bebas
                 md:flex-row
                 xs:flex-col'>
@@ -30,7 +30,7 @@ function App() {
 
                             <h3 className='block text-3xl mt-1.5 ml-7 float-right mr-16 transition duration-100
                             group-hover:animate-from-right'>
-                                Sp<span className='group-hover:text-custom-gold'>ani</span>sh 
+                                Sp<span className='group-hover:text-custom-gold'>ani</span>sh
                                 M<span className='group-hover:text-custom-gold'>M</span>A
                             </h3>
                         </div>
@@ -57,7 +57,20 @@ function App() {
 
                 </div>
             </header>
+            {/*FIN HEADER */}
 
+            {/* INICIO INFORMACIÓN */}
+            <section className='container w-11/12 mx-auto'>
+
+                {/* INICIO BANNER */}
+                <div id='banner' className='h-64 w-full border-8 border-white mx-auto overflow-hidden shadow m-5
+             bg-banner bg-cover bg-no-repeat'>
+
+                </div>
+                {/* FIN BANNER */}
+
+            </section>
+            {/* FIN INFORMACIÓN */}
 
         </div>
     )

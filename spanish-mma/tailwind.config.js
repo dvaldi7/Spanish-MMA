@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens:{
+        'xs': {'max': '768px'},
+      },
       backgroundImage: {
         "body-pattern": "url('/pattern.png')",
       },

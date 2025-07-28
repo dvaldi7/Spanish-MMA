@@ -73,7 +73,8 @@ function App() {
                 <div id='cards' className='flex flex-nowrap justify-between'>
 
                     <div className='card group'>
-                        <span className='card-icon group-hover:text-custom-gold group-hover:text-7xl'>U</span>
+                        <span className='card-icon group-hover:text-custom-gold group-hover:text-7xl 
+                       group-hover:animate-show-card-icon transform group-hover:scale-125'>U</span>
 
                         <h2 className='card-category group-hover:text-custom-gold'>
                             PELEADORES
@@ -84,7 +85,8 @@ function App() {
                     </div>
 
                     <div className='card group'>
-                        <span className='card-icon  group-hover:text-custom-gold group-hover:text-7xl'>K</span>
+                        <span className='card-icon  group-hover:text-custom-gold transform group-hover:scale-125
+                        group-hover:animate-show-card-icon'>K</span>
 
                         <h2 className='card-category group-hover:text-custom-gold'>
                             COMPAÑÍAS
@@ -95,7 +97,8 @@ function App() {
                     </div>
 
                     <div className='card group'>
-                        <span className='card-icon group-hover:text-custom-gold group-hover:text-7xl'>I</span>
+                        <span className='card-icon group-hover:text-custom-gold group-hover:text-7xl
+                        group-hover:animate-show-card-icon transform group-hover:scale-125'>I</span>
 
                         <h2 className='card-category group-hover:text-custom-gold'>
                             EVENTOS
@@ -106,7 +109,8 @@ function App() {
                     </div>
 
                     <div className='card group'>
-                        <span className='card-icon  group-hover:text-custom-gold group-hover:text-7xl'>@</span>
+                        <span className='card-icon  group-hover:text-custom-gold group-hover:text-7xl
+                        group-hover:animate-show-card-icon transform group-hover:scale-125'>@</span>
 
                         <h2 className='card-category group-hover:text-custom-gold'>
                             NOTICIAS
@@ -117,7 +121,8 @@ function App() {
                     </div>
 
                     <div className='card group'>
-                        <span className='card-icon group-hover:text-custom-gold group-hover:text-7xl'>y</span>
+                        <span className='card-icon group-hover:text-custom-gold group-hover:text-7xl
+                        group-hover:animate-show-card-icon transform group-hover:scale-125'>y</span>
 
                         <h2 className='card-category group-hover:text-custom-gold'>
                             EXPERTOS

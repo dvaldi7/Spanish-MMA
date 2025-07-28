@@ -29,6 +29,7 @@ export default {
         'from-bellow': 'fromBellow 500ms linear',
         'from-right': 'fromRight 300ms linear',
         'bg-banner': 'mmaBanner 10s linear',
+        'show-card-icon': 'showCardIcon 300ms linear',
       },
       keyframes:{
         fromBellow:{
@@ -45,10 +46,15 @@ export default {
           '50%': {'background-position': '-100px -100px' },
           '100%': {'background-position': '0px 0px' },
         },
-        variants:{
+        showCardIcon: {
+          'from': { transform: 'translateY(-200%)' },
+          'to': { transform: 'translateY(0%)' },
+        },
+        
+      },
+      variants:{
           fontSize: ['responsive', 'hover', 'group-hover'],
         },
-      }
     },
   },
   plugins: [],

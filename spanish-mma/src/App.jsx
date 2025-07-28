@@ -69,6 +69,75 @@ function App() {
                 </div>
                 {/* FIN BANNER */}
 
+                {/* INICIO TARJETAS */}
+                <div id='cards' className=''>
+
+                    <div className='card'>
+                        <p className='card-icon'>
+                            U
+                        </p>
+                        <h2 className='card-category'>
+                            PELEADORES
+                        </h2>
+                        <p className='card-description'>
+                            Conoce a los guerreros
+                        </p>
+                    </div>
+
+                    <div className='card'>
+                        <p className='card-icon'>
+                            t
+                        </p>
+                        <h2 className='card-category'>
+                            COMPAÑÍAS
+                        </h2>
+                        <p className='card-description'>
+                            Visita las compañías de España
+                        </p>
+                    </div>
+
+                    <div className='card'>
+                        <p className='card-icon'>
+                            I
+                        </p>
+                        <h2 className='card-category'>
+                            EVENTOS
+                        </h2>
+                        <p className='card-description'>
+                            Descubre los próximos eventos
+                        </p>
+
+                        <div className='card'>
+                            <p className='card-icon'>
+                                C
+                            </p>
+                            <h2 className='card-category'>
+                                NOTICIAS
+                            </h2>
+                            <p className='card-description'>
+                                Ponte al día de las últimas noticias
+                            </p>
+                        </div>
+
+                        <div className='card'>
+                            <p className='card-icon'>
+                                V
+                            </p>
+                            <h2 className='card-category'>
+                                EXPERTOS
+                            </h2>
+                            <p className='card-description'>
+                                Sigue a los mejores divulgadores de las MMA
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                {/* FIN TARJETAS */}
+
             </section>
             {/* FIN INFORMACIÓN */}
 

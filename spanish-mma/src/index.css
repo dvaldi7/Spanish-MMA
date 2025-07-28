@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+
   /*body {
     background-image: url("../src/assets/img/pattern.png");
   }
@@ -33,25 +34,30 @@
     font-style: normal;
   }
 
-  .symbol{
+  .symbol {
     font-family: "WebSymbolsRegular";
   }
 
-  .bebas{
+  .bebas {
     font-family: "BebasNeue";
   }
 
-  .trebuchet{
+  .trebuchet {
     font-family: "TrebuchetMS";
   }
 }
 
 @layer components {
-  .menu-item{
-    @apply mr-5 ml-5 tracking-wider flex-none xs:flex-1
+  .menu-item {
+    @apply mr-5 ml-5 tracking-wider flex-none xs:flex-1;
   }
 
-  .menu-item-a{
-    @apply block transition duration-200 hover:text-custom-gold transform hover:scale-125
+  .menu-item-a {
+    @apply block transition duration-200 hover:text-custom-gold transform hover:scale-125;
+  }
+
+  .card {
+    @apply flex-1 h-80 border-2 border-gray-200 shadow-md bg-white overflow-hidden m-5
+    pl-5 pr-5 mt-10 cursor-pointer transition duration-300
   }
 }

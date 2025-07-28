@@ -70,7 +70,7 @@ function App() {
                 {/* FIN BANNER */}
 
                 {/* INICIO TARJETAS */}
-                <div id='cards' className=''>
+                <div id='cards' className='flex flex-nowrap justify-between'>
 
                     <div className='card'>
                         <p className='card-icon'>
@@ -106,42 +106,38 @@ function App() {
                         <p className='card-description'>
                             Descubre los próximos eventos
                         </p>
-
-                        <div className='card'>
-                            <p className='card-icon'>
-                                C
-                            </p>
-                            <h2 className='card-category'>
-                                NOTICIAS
-                            </h2>
-                            <p className='card-description'>
-                                Ponte al día de las últimas noticias
-                            </p>
-                        </div>
-
-                        <div className='card'>
-                            <p className='card-icon'>
-                                V
-                            </p>
-                            <h2 className='card-category'>
-                                EXPERTOS
-                            </h2>
-                            <p className='card-description'>
-                                Sigue a los mejores divulgadores de las MMA
-                            </p>
-                        </div>
                     </div>
 
+                    <div className='card'>
+                        <p className='card-icon'>
+                            C
+                        </p>
+                        <h2 className='card-category'>
+                            NOTICIAS
+                        </h2>
+                        <p className='card-description'>
+                            Ponte al día de las últimas noticias
+                        </p>
+                    </div>
+
+                    <div className='card'>
+                        <p className='card-icon'>
+                            V
+                        </p>
+                        <h2 className='card-category'>
+                            EXPERTOS
+                        </h2>
+                        <p className='card-description'>
+                            Sigue a los mejores divulgadores de las MMA
+                        </p>
+                    </div>
                 </div>
+                {/* FIN TARJETAS */ }
 
+            </section >
+        {/* FIN INFORMACIÓN */ }
 
-
-                {/* FIN TARJETAS */}
-
-            </section>
-            {/* FIN INFORMACIÓN */}
-
-        </div>
+        </div >
     )
 }
 

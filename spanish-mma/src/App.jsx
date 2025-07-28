@@ -76,10 +76,10 @@ function App() {
                         <span className='card-icon group-hover:text-custom-gold group-hover:text-7xl 
                        group-hover:animate-show-card-icon transform group-hover:scale-125'>U</span>
 
-                        <h2 className='card-category group-hover:text-custom-gold'>
+                        <h2 className='card-category group-hover:text-custom-gold group-hover:animate-show-card-category'>
                             PELEADORES
                         </h2>
-                        <p className='card-description group-hover:text-custom-gold'>
+                        <p className='card-description group-hover:text-custom-gold group-hover:animate-show-card-desc'>
                             Conoce a los guerreros
                         </p>
                     </div>
@@ -88,10 +88,10 @@ function App() {
                         <span className='card-icon  group-hover:text-custom-gold transform group-hover:scale-125
                         group-hover:animate-show-card-icon'>K</span>
 
-                        <h2 className='card-category group-hover:text-custom-gold'>
+                        <h2 className='card-category group-hover:text-custom-gold group-hover:animate-show-card-category'>
                             COMPAÑÍAS
                         </h2>
-                        <p className='card-description group-hover:text-custom-gold'>
+                        <p className='card-description group-hover:text-custom-gold group-hover:animate-show-card-desc'>
                             Visita las compañías de España
                         </p>
                     </div>
@@ -100,10 +100,10 @@ function App() {
                         <span className='card-icon group-hover:text-custom-gold group-hover:text-7xl
                         group-hover:animate-show-card-icon transform group-hover:scale-125'>I</span>
 
-                        <h2 className='card-category group-hover:text-custom-gold'>
+                        <h2 className='card-category group-hover:text-custom-gold group-hover:animate-show-card-category'>
                             EVENTOS
                         </h2>
-                        <p className='card-description group-hover:text-custom-gold'>
+                        <p className='card-description group-hover:text-custom-gold group-hover:animate-show-card-desc'>
                             Descubre los próximos eventos
                         </p>
                     </div>
@@ -112,10 +112,10 @@ function App() {
                         <span className='card-icon  group-hover:text-custom-gold group-hover:text-7xl
                         group-hover:animate-show-card-icon transform group-hover:scale-125'>@</span>
 
-                        <h2 className='card-category group-hover:text-custom-gold'>
+                        <h2 className='card-category group-hover:text-custom-gold group-hover:animate-show-card-category'>
                             NOTICIAS
                         </h2>
-                        <p className='card-description group-hover:text-custom-gold'>
+                        <p className='card-description group-hover:text-custom-gold group-hover:animate-show-card-desc'>
                             Ponte al día de las últimas noticias
                         </p>
                     </div>
@@ -124,10 +124,10 @@ function App() {
                         <span className='card-icon group-hover:text-custom-gold group-hover:text-7xl
                         group-hover:animate-show-card-icon transform group-hover:scale-125'>y</span>
 
-                        <h2 className='card-category group-hover:text-custom-gold'>
+                        <h2 className='card-category group-hover:text-custom-gold group-hover:animate-show-card-category'>
                             EXPERTOS
                         </h2>
-                        <p className='card-description group-hover:text-custom-gold'>
+                        <p className='card-description group-hover:text-custom-gold group-hover:animate-show-card-desc'>
                             Sigue a los mejores divulgadores de las MMA
                         </p>
                     </div>

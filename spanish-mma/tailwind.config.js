@@ -6,8 +6,8 @@ export default {
   ],
   theme: {
     extend: {
-      screens:{
-        'xs': {'max': '768px'},
+      screens: {
+        'xs': { 'max': '768px' },
       },
       backgroundImage: {
         "body-pattern": "url('/pattern.png')",
@@ -24,37 +24,47 @@ export default {
         trebuchet: ['TrebuchetMS', 'sans-serif'],
         symbols: ['WebSymbolsRegular'],
       },
-      animation:{
-        'spin-slow':'spin 7s linear infinite',
+      animation: {
+        'spin-slow': 'spin 7s linear infinite',
         'from-bellow': 'fromBellow 500ms linear',
         'from-right': 'fromRight 300ms linear',
         'bg-banner': 'mmaBanner 10s linear',
         'show-card-icon': 'showCardIcon 300ms linear',
+        'show-card-category': 'showCategory 400ms linear',
+        'show-card-desc': 'showDesc 400ms linear',
       },
-      keyframes:{
-        fromBellow:{
+      keyframes: {
+        fromBellow: {
           '0%': { transform: 'translateY(0%)' },
           '50%': { transform: 'translateY(200%)' },
           '100%': { transform: 'translateY(0%)' },
         },
-        fromRight:{
+        fromRight: {
           '0%': { transform: 'translateX(200%)' },
           '100%': { transform: 'translateX(0%)' },
         },
-        mmaBanner:{
-          '0%': {'background-position': '0px 0px' },
-          '50%': {'background-position': '-100px -100px' },
-          '100%': {'background-position': '0px 0px' },
+        mmaBanner: {
+          '0%': { 'background-position': '0px 0px' },
+          '50%': { 'background-position': '-100px -100px' },
+          '100%': { 'background-position': '0px 0px' },
         },
         showCardIcon: {
           'from': { transform: 'translateY(-200%)' },
           'to': { transform: 'translateY(0%)' },
         },
-        
-      },
-      variants:{
-          fontSize: ['responsive', 'hover', 'group-hover'],
+        showCategory: {
+          'from': { transform: 'translateY(-300%)' },
+          'to': { transform: 'translateY(0%)' },
         },
+        showDesc: {
+          'from': { transform: 'translateX(-300%)' },
+          'to': { transform: 'translateX(0%)' },
+        },
+
+      },
+      variants: {
+        fontSize: ['responsive', 'hover', 'group-hover'],
+      },
     },
   },
   plugins: [],

@@ -72,62 +72,57 @@ function App() {
                 {/* INICIO TARJETAS */}
                 <div id='cards' className='flex flex-nowrap justify-between'>
 
-                    <div className='card'>
-                        <p className='card-icon'>
-                            U
-                        </p>
-                        <h2 className='card-category'>
+                    <div className='card group'>
+                        <span className='card-icon group-hover:text-custom-gold group-hover:text-7xl'>U</span>
+
+                        <h2 className='card-category group-hover:text-custom-gold'>
                             PELEADORES
                         </h2>
-                        <p className='card-description'>
+                        <p className='card-description group-hover:text-custom-gold'>
                             Conoce a los guerreros
                         </p>
                     </div>
 
-                    <div className='card'>
-                        <p className='card-icon'>
-                            t
-                        </p>
-                        <h2 className='card-category'>
+                    <div className='card group'>
+                        <span className='card-icon  group-hover:text-custom-gold group-hover:text-7xl'>K</span>
+
+                        <h2 className='card-category group-hover:text-custom-gold'>
                             COMPAÑÍAS
                         </h2>
-                        <p className='card-description'>
+                        <p className='card-description group-hover:text-custom-gold'>
                             Visita las compañías de España
                         </p>
                     </div>
 
-                    <div className='card'>
-                        <p className='card-icon'>
-                            I
-                        </p>
-                        <h2 className='card-category'>
+                    <div className='card group'>
+                        <span className='card-icon group-hover:text-custom-gold group-hover:text-7xl'>I</span>
+
+                        <h2 className='card-category group-hover:text-custom-gold'>
                             EVENTOS
                         </h2>
-                        <p className='card-description'>
+                        <p className='card-description group-hover:text-custom-gold'>
                             Descubre los próximos eventos
                         </p>
                     </div>
 
-                    <div className='card'>
-                        <p className='card-icon'>
-                            C
-                        </p>
-                        <h2 className='card-category'>
+                    <div className='card group'>
+                        <span className='card-icon  group-hover:text-custom-gold group-hover:text-7xl'>@</span>
+
+                        <h2 className='card-category group-hover:text-custom-gold'>
                             NOTICIAS
                         </h2>
-                        <p className='card-description'>
+                        <p className='card-description group-hover:text-custom-gold'>
                             Ponte al día de las últimas noticias
                         </p>
                     </div>
 
-                    <div className='card'>
-                        <p className='card-icon'>
-                            V
-                        </p>
-                        <h2 className='card-category'>
+                    <div className='card group'>
+                        <span className='card-icon group-hover:text-custom-gold group-hover:text-7xl'>y</span>
+
+                        <h2 className='card-category group-hover:text-custom-gold'>
                             EXPERTOS
                         </h2>
-                        <p className='card-description'>
+                        <p className='card-description group-hover:text-custom-gold'>
                             Sigue a los mejores divulgadores de las MMA
                         </p>
                     </div>

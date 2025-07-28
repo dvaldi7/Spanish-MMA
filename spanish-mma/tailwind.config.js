@@ -45,6 +45,9 @@ export default {
           '50%': {'background-position': '-100px -100px' },
           '100%': {'background-position': '0px 0px' },
         },
+        variants:{
+          fontSize: ['responsive', 'hover', 'group-hover'],
+        },
       }
     },
   },

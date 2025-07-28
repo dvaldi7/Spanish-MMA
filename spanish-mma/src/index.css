@@ -48,6 +48,8 @@
 }
 
 @layer components {
+
+  /* ESTILOS DEL MENU */
   .menu-item {
     @apply mr-5 ml-5 tracking-wider flex-none xs:flex-1;
   }
@@ -56,8 +58,22 @@
     @apply block transition duration-200 hover:text-custom-gold transform hover:scale-125;
   }
 
+  /* ESTILOS DE LAS TARJETAS */
   .card {
-    @apply flex-1 h-80 border-2 border-gray-200 shadow-md bg-white overflow-hidden m-5
-    pl-5 pr-5 mt-10 cursor-pointer transition duration-300
+    @apply flex-1 h-80 border-2 border-gray-200 shadow-md bg-white overflow-hidden m-5 pl-5 pr-5 mt-10 
+      cursor-pointer transition duration-300 hover:bg-custom-red 
+  }
+
+  .card-icon {
+    font-family: "WebSymbolsRegular";
+    @apply block w-full h-32 text-5xl text-center mt-12 mx-auto transition duration-300 
+  }
+
+  .card-category{
+    @apply w-full h-12 text-xl font-bold text-center text-custom-red transition duration-300 
+  }
+
+  .card-description{
+    @apply text-center text-custom-red text-base transition duration-300 mt-4 
   }
 }

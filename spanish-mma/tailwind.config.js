@@ -65,6 +65,10 @@ export default {
       variants: {
         fontSize: ['responsive', 'hover', 'group-hover'],
       },
+      fontSize: {
+             'xxs': '.625rem', 
+             '2xs': '.75rem', 
+           }
     },
   },
   plugins: [],

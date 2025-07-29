@@ -61,19 +61,23 @@
   /* ESTILOS DE LAS TARJETAS */
   .card {
     @apply flex-1 h-80 border-2 border-gray-200 shadow-md bg-white overflow-hidden m-5 pl-5 pr-5 mt-10 
-      cursor-pointer transition duration-300 hover:bg-custom-red 
+      cursor-pointer transition duration-300 hover:bg-custom-red md:h-40 md:m-2 lg:h-80 lg:m-5 xs:h-40
+      xs:m-2
   }
 
   .card-icon {
     font-family: "WebSymbolsRegular";
-    @apply block w-full h-32 text-5xl text-center mt-12 mx-auto transition duration-300 
+    @apply block w-full h-32 text-5xl text-center mt-12 mx-auto transition duration-300 md:mt-3 lg:mt-12 md:h-20
+    lg:h-32 xs:mt-3 xs:h-20 xs:text-center
   }
 
   .card-category{
-    @apply w-full h-12 text-xl font-bold text-center text-custom-red transition duration-300 
+    @apply w-full h-12 text-xl font-bold text-center text-custom-red transition duration-300  lg:text-lg
+    md:text-base md:h-6 lg:h-12 xs:text-xxs xs:h-6 
   }
 
   .card-description{
-    @apply text-center text-custom-red text-base transition duration-300 mt-4 
+    @apply text-center text-custom-red text-base transition duration-300 mt-4 lg:text-sm lg:mt-1 lg:block 
+    md:hidden xl:text-base xl:mt-1 xs:hidden
   }
 }

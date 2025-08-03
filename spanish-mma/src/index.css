@@ -68,7 +68,7 @@
   .card-icon {
     font-family: "WebSymbolsRegular";
     @apply block w-full h-32 text-5xl text-center mt-12 mx-auto transition duration-300 md:mt-3 lg:mt-12 md:h-20
-    lg:h-32 xs:mt-3 xs:h-20 xs:text-center
+    lg:h-32 xs:mt-3 xs:h-20
   }
 
   .card-category{
@@ -79,5 +79,11 @@
   .card-description{
     @apply text-center text-custom-red text-base transition duration-300 mt-4 lg:text-sm lg:mt-1 lg:block 
     md:hidden xl:text-base xl:mt-1 xs:hidden
+  }
+
+  .articles-header{
+    font-family: "BebasNeue";
+    background: url("pxgray.png"), white;
+    @apply w-full h-20 block text-center text-4xl font-medium tracking-widest pt-5 border shadow-header3D
   }
 }

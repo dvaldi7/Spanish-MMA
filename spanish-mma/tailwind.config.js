@@ -9,21 +9,28 @@ export default {
       screens: {
         'xs': { 'max': '768px' },
       },
+
       backgroundImage: {
         "body-pattern": "url('/pattern.png')",
         "banner": "url('/mmabanner.jpg')",
       },
+
       colors: {
         'custom-blue': '#1e3a8a',
         'custom-gold': '#ffdb0fe5',
         "custom-black": "#000511ff",
         "custom-red": "#e60303ff"
       },
+      boxShadow: {
+        header3D: "0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f"
+      },
+
       fontFamily: {
         bebas: ['BebasNeue', 'sans-serif'],
         trebuchet: ['TrebuchetMS', 'sans-serif'],
         symbols: ['WebSymbolsRegular'],
       },
+
       animation: {
         'spin-slow': 'spin 7s linear infinite',
         'from-bellow': 'fromBellow 500ms linear',
@@ -33,6 +40,7 @@ export default {
         'show-card-category': 'showCategory 400ms linear',
         'show-card-desc': 'showDesc 400ms linear',
       },
+
       keyframes: {
         fromBellow: {
           '0%': { transform: 'translateY(0%)' },
@@ -62,9 +70,11 @@ export default {
         },
 
       },
+
       variants: {
         fontSize: ['responsive', 'hover', 'group-hover'],
       },
+
       fontSize: {
              'xxs': '.625rem', 
              '2xs': '.75rem', 

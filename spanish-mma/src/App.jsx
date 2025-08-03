@@ -24,9 +24,10 @@ function App() {
             {/* FIN INFORMACIÓN */}
 
             {/* INICIO CONTENIDO PRINCIPAL */}
-            <main>
+            <main className='container w-11/12 flex flex-row mx-auto mt-5'>
                 {/* INICIO BARRA LATERAL */}
-                <aside id='lateral'>
+
+                <aside id='lateral' className='order-2 flex-none w-72 min-h-full mt-5'>
                     <h3>BUSCAR</h3>
                     <div id='search'>
                         <form>
@@ -81,8 +82,10 @@ function App() {
                 {/* FIN BARRA LATERAL */}
 
                 {/* INICIO ARTÍCULOS */}
-                <section>
-                    <h2>Últimas noticias</h2>
+                <section className='order-1 flex-grow mr-10 mt-5'>
+                    <h2 className='articles-header'>
+                        Últimas noticias
+                        </h2>
 
                     <article>
 

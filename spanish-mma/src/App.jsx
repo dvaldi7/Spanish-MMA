@@ -12,27 +12,20 @@ function App() {
     return (
         <div className='bg-body-pattern bg-scroll min-h-screen'>
 
-            {/* INICIO HEADER */}
             <Header />
-            {/*FIN HEADER */}
 
             {/* INICIO INFORMACIÓN */}
             <section className='container w-11/12 mx-auto'>
-
-                {/* INICIO BANNER */}
                 <Banner />
-                {/* FIN BANNER */}
 
-                {/* INICIO TARJETAS */}
                 <Cards />
-                {/* FIN TARJETAS */}
 
             </section >
             {/* FIN INFORMACIÓN */}
 
             {/* INICIO CONTENIDO PRINCIPAL */}
             <main>
-
+                {/* INICIO BARRA LATERAL */}
                 <aside id='lateral'>
                     <h3>BUSCAR</h3>
                     <div id='search'>
@@ -46,10 +39,10 @@ function App() {
                     <h3>LOGIN</h3>
                     <div id='login'>
                         <form>
-                            <label for="email">Usuario </label>
+                            <label htmlFor="email">Usuario </label>
                             <input type='email' id='email' />
 
-                            <label for='password' >Contraseña </label>
+                            <label htmlFor='password' >Contraseña </label>
                             <input type='password' id='password' />
 
                             <input type='submit' value="Entrar" />
@@ -85,10 +78,33 @@ function App() {
                     </div>
 
                 </aside>
+                {/* FIN BARRA LATERAL */}
 
+                {/* INICIO ARTÍCULOS */}
                 <section>
+                    <h2>Últimas noticias</h2>
 
+                    <article>
+
+                        <div>
+                            <span>Fecha: 10 marzo</span>
+                            <span>Categoría: pruebas</span>
+                        </div>
+
+                        <h4>
+                            <a href='#'>Título de la noticia</a>
+                        </h4>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu pellentesque enim, vitae
+                            consequat enim. Quisque congue dictum vehicula. Mauris placerat augue sed metus egestas,
+                            a pulvinar orci lobortis. Quisque semper, justo vel elementum consectetur, augue lectus
+                            ullamcorper libero, nec luctus mi velit nec massa.
+                        </p>
+
+                    </article>
                 </section>
+                {/* FIN ARTÍCULOS */}
 
             </main>
             {/* FIN CONTENIDO PRINCIPAL */}

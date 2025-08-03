@@ -1,6 +1,9 @@
 import './App.css'
 import React from "react";
 import { Link } from 'react-router-dom';
+import { Header } from './components/Header';
+import { Banner } from './components/Banner';
+import { Cards } from './components/Cards';
 
 
 
@@ -10,69 +13,86 @@ function App() {
         <div className='bg-body-pattern bg-scroll min-h-screen'>
 
             {/* INICIO HEADER */}
-            <header id='header' className='h-24 bg-custom-red text-white font-sans
-            xs:h-36'>
-
-                <div className='container w-11/12 mx-auto flex bebas
-                md:flex-row
-                xs:flex-col'>
-
-                    <div id='logo' className='flex-1 xs:mx-auto'>
-
-                        <div className='w-64 mt-1.5 pt-0.5 pb-0.5 bg-custom-gold text-custom-black text-center rounded-md
-                        hover:bg-gray-400 hover:text-custom-red tracking-wider cursor-pointer overflow-hidden transition duration-300
-                        flex flex-row group'>
-
-                            <span className='block float-left ml-11 mt-5 animation group-hover:scale-125
-                            group-hover:animate-from-bellow'>
-                                <img src='/octagono.png' />
-                            </span>
-
-                            <h3 className='block text-3xl mt-1.5 ml-7 float-right mr-16 transition duration-100
-                            group-hover:animate-from-right'>
-                                Sp<span className='group-hover:text-custom-gold'>ani</span>sh
-                                M<span className='group-hover:text-custom-gold'>M</span>A
-                            </h3>
-                        </div>
-
-                    </div>
-
-                    <nav className='flex-1 '>
-                        <ul className='flex flex-row text-white h-20 items-center text-2xl
-                        text-center xs:mr-0 xs:text-center md:justify-end'>
-                            <li className='menu-item'>
-                                <Link to='#' className='menu-item-a'>Inicio</Link>
-                            </li>
-                            <li className='menu-item'>
-                                <Link to='#' className='menu-item-a'>Peleadores</Link>
-                            </li>
-                            <li className='menu-item'>
-                                <Link to='#' className='menu-item-a'>Compañías</Link>
-                            </li>
-                            <li className='menu-item'>
-                                <Link to='#' className='menu-item-a'>Eventos</Link>
-                            </li>
-                        </ul>
-                    </nav>
-
-                </div>
-            </header>
+            <Header />
             {/*FIN HEADER */}
 
             {/* INICIO INFORMACIÓN */}
             <section className='container w-11/12 mx-auto'>
 
                 {/* INICIO BANNER */}
-                <div id='banner' className='h-52 w-full border-8 border-white mx-auto overflow-hidden shadow m-5
-             bg-banner bg-cover bg-no-repeat animate-bg-banner'>
-
-                </div>
+                <Banner />
                 {/* FIN BANNER */}
 
-            </section>
+                {/* INICIO TARJETAS */}
+                <Cards />
+                {/* FIN TARJETAS */}
+
+            </section >
             {/* FIN INFORMACIÓN */}
 
-        </div>
+            {/* INICIO CONTENIDO PRINCIPAL */}
+            <main>
+
+                <aside id='lateral'>
+                    <h3>BUSCAR</h3>
+                    <div id='search'>
+                        <form>
+                            <input type='text' />
+                            <input type='button' value="Buscar" />
+
+                        </form>
+                    </div>
+
+                    <h3>LOGIN</h3>
+                    <div id='login'>
+                        <form>
+                            <label for="email">Usuario </label>
+                            <input type='email' id='email' />
+
+                            <label for='password' >Contraseña </label>
+                            <input type='password' id='password' />
+
+                            <input type='submit' value="Entrar" />
+                            <input type='reset' value="Limpiar" />
+
+                            <a href='#'>Regístrate aquí</a>
+                            <a href='#'>¿Has olvidado tu contraseña?</a>
+                        </form>
+                    </div>
+
+                    <h3>REDES SOCIALES</h3>
+                    <div id='social-media'>
+
+                        <div className='twitter'>
+                            <a href='#'>Twitter</a>
+                            <p>Twitter</p>
+                        </div>
+
+                        <div className='facebook'>
+                            <a href='#'>Facebook</a>
+                            <p>Facebook</p>
+                        </div>
+
+                        <div className='youtube'>
+                            <a href='#'>Youtube</a>
+                            <p>Youtube</p>
+                        </div>
+                    </div>
+
+                    <h3>PATROCINADORES</h3>
+                    <div id='sponsors'>
+
+                    </div>
+
+                </aside>
+
+                <section>
+
+                </section>
+
+            </main>
+            {/* FIN CONTENIDO PRINCIPAL */}
+        </div >
     )
 }
 

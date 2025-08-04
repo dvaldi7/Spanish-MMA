@@ -87,22 +87,108 @@ function App() {
                         Últimas noticias
                         </h2>
 
-                    <article className='w-full h-auto border border-gray-200 m-10 mx-auto p-2.5 bg-white 
-                    text-black shadow-md'>
+                    <article className='articles-item'>
 
-                        <div className='float-right bg-gray-800 h-10 leading-6 p-2 text-white -m-2.5
-                        text-sm rounded-bl-lg'>
-                            <span className='m-2.5'>Fecha: 10 marzo</span>
-                            <span className='m-2.5'>Categoría: pruebas</span>
+                        <div className='articles-data '>
+                            <span>Fecha: 10 marzo</span>
+                            <span>Categoría: pruebas</span>
                         </div>
 
-                        <h4 className='block text-2xl m-1'>
-                            <a href='#' className='font-semibold text-custom-red hover:underline'>
+                        <h4 className='articles-head'>
+                            <a href='#'>
                                 Título de la noticia
                                 </a>
                         </h4>
 
-                        <p className='block mt-3 mb-3 font-sans font-normal text-base'>
+                        <p className='articles-description'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu pellentesque enim, vitae
+                            consequat enim. Quisque congue dictum vehicula. Mauris placerat augue sed metus egestas,
+                            a pulvinar orci lobortis. Quisque semper, justo vel elementum consectetur, augue lectus
+                            ullamcorper libero, nec luctus mi velit nec massa.
+                        </p>
+
+                    </article>
+
+                    <article className='articles-item'>
+
+                        <div className='articles-data '>
+                            <span>Fecha: 10 marzo</span>
+                            <span>Categoría: pruebas</span>
+                        </div>
+
+                        <h4 className='articles-head'>
+                            <a href='#'>
+                                Título de la noticia
+                                </a>
+                        </h4>
+
+                        <p className='articles-description'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu pellentesque enim, vitae
+                            consequat enim. Quisque congue dictum vehicula. Mauris placerat augue sed metus egestas,
+                            a pulvinar orci lobortis. Quisque semper, justo vel elementum consectetur, augue lectus
+                            ullamcorper libero, nec luctus mi velit nec massa.
+                        </p>
+
+                    </article>
+
+                    <article className='articles-item'>
+
+                        <div className='articles-data '>
+                            <span>Fecha: 10 marzo</span>
+                            <span>Categoría: pruebas</span>
+                        </div>
+
+                        <h4 className='articles-head'>
+                            <a href='#'>
+                                Título de la noticia
+                                </a>
+                        </h4>
+
+                        <p className='articles-description'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu pellentesque enim, vitae
+                            consequat enim. Quisque congue dictum vehicula. Mauris placerat augue sed metus egestas,
+                            a pulvinar orci lobortis. Quisque semper, justo vel elementum consectetur, augue lectus
+                            ullamcorper libero, nec luctus mi velit nec massa.
+                        </p>
+
+                    </article>
+
+                    <article className='articles-item'>
+
+                        <div className='articles-data '>
+                            <span>Fecha: 10 marzo</span>
+                            <span>Categoría: pruebas</span>
+                        </div>
+
+                        <h4 className='articles-head'>
+                            <a href='#'>
+                                Título de la noticia
+                                </a>
+                        </h4>
+
+                        <p className='articles-description'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu pellentesque enim, vitae
+                            consequat enim. Quisque congue dictum vehicula. Mauris placerat augue sed metus egestas,
+                            a pulvinar orci lobortis. Quisque semper, justo vel elementum consectetur, augue lectus
+                            ullamcorper libero, nec luctus mi velit nec massa.
+                        </p>
+
+                    </article>
+
+                    <article className='articles-item'>
+
+                        <div className='articles-data '>
+                            <span>Fecha: 10 marzo</span>
+                            <span>Categoría: pruebas</span>
+                        </div>
+
+                        <h4 className='articles-head'>
+                            <a href='#'>
+                                Título de la noticia
+                                </a>
+                        </h4>
+
+                        <p className='articles-description'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu pellentesque enim, vitae
                             consequat enim. Quisque congue dictum vehicula. Mauris placerat augue sed metus egestas,
                             a pulvinar orci lobortis. Quisque semper, justo vel elementum consectetur, augue lectus

@@ -86,4 +86,30 @@
     background: url("pxgray.png"), white;
     @apply w-full h-20 block text-center text-4xl font-medium tracking-widest pt-5 border shadow-header3D
   }
+
+  .articles-item{
+    @apply w-full h-auto border border-gray-200 m-10 mx-auto p-2.5 bg-white 
+                    text-black shadow-md
+  }
+
+  .articles-data{
+    @apply float-right bg-gray-800 h-10 leading-6 p-2 text-white -m-2.5
+                        text-sm rounded-bl-lg;
+  }
+
+  .articles-data span{
+    @apply m-2.5;
+  }
+
+  .articles-head{
+    @apply block text-2xl m-1;
+  }
+
+  .articles-head a{
+    @apply font-semibold text-custom-red hover:underline;
+  }
+
+  .articles-description{
+    @apply block mt-3 mb-3 font-sans font-normal text-base;
+  }
 }

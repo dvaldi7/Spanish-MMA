@@ -112,4 +112,11 @@
   .articles-description{
     @apply block mt-3 mb-3 font-sans font-normal text-base;
   }
+
+  .aside-header{
+    font-family: "BebasNeue";
+    background: url("pxgray.png"), white;
+    @apply block h-11 leading-10 shadow-header3D text-3xl font-medium
+                    tracking-wide pl-3.5 pt-1 mb-3.5 border ;
+  }
 }

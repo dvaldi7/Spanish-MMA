@@ -28,7 +28,9 @@ function App() {
                 {/* INICIO BARRA LATERAL */}
 
                 <aside id='lateral' className='order-2 flex-none w-72 min-h-full mt-5'>
-                    <h3>BUSCAR</h3>
+                    <h3 className='aside-header'>
+                        BUSCAR
+                    </h3>
                     <div id='search'>
                         <form>
                             <input type='text' />
@@ -37,7 +39,7 @@ function App() {
                         </form>
                     </div>
 
-                    <h3>LOGIN</h3>
+                    <h3 className='aside-header'>LOGIN</h3>
                     <div id='login'>
                         <form>
                             <label htmlFor="email">Usuario </label>
@@ -54,7 +56,7 @@ function App() {
                         </form>
                     </div>
 
-                    <h3>REDES SOCIALES</h3>
+                    <h3 className='aside-header'>REDES SOCIALES</h3>
                     <div id='social-media'>
 
                         <div className='twitter'>
@@ -73,7 +75,7 @@ function App() {
                         </div>
                     </div>
 
-                    <h3>PATROCINADORES</h3>
+                    <h3 className='aside-header'>PATROCINADORES</h3>
                     <div id='sponsors'>
 
                     </div>

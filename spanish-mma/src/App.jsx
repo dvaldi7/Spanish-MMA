@@ -31,7 +31,7 @@ function App() {
                     <h3 className='aside-header'>
                         BUSCAR
                     </h3>
-                    <div id='search' className='w-11/12 m-2.5 mx-auto h-7 bg-white border border-gray-200
+                    <div id='search' className='w-11/12 m-2.5 mx-auto h-7 bg-white border border-gray-300
                     rounded shadow-inner'>
                         <form>
                             <input type='text' className='w-10/12 h-6 border-none pl-1.5 rounded-md
@@ -45,17 +45,17 @@ function App() {
                     <h3 className='aside-header'>LOGIN</h3>
                     <div id='login' className='aside-box'>
                         <form>
-                            <label htmlFor="email">Usuario </label>
-                            <input type='email' id='email' />
+                            <label htmlFor="email" className='login-icon'>U</label>
+                            <input type='email' id='email' className='login-input' />
 
-                            <label htmlFor='password' >Contraseña </label>
-                            <input type='password' id='password' />
+                            <label htmlFor='password' className='login-icon text-xl ml-7 mt-6'>w</label>
+                            <input type='password' id='password' className='login-input' />
 
-                            <input type='submit' value="Entrar" />
-                            <input type='reset' value="Limpiar" />
+                            <input type='submit' value="Entrar" className='login-btn'/>
+                            <input type='reset' value="Limpiar" className='login-btn ml-1'/>
 
-                            <a href='#'>Regístrate aquí</a>
-                            <a href='#'>¿Has olvidado tu contraseña?</a>
+                            <a href='#' className='login-link'>Regístrate aquí</a>
+                            <a href='#' className='login-link'>¿Has olvidado tu contraseña?</a>
                         </form>
                     </div>
 
@@ -90,7 +90,7 @@ function App() {
                 <section className='order-1 flex-grow mr-10 mt-5'>
                     <h2 className='articles-header'>
                         Últimas noticias
-                        </h2>
+                    </h2>
 
                     <article className='articles-item'>
 
@@ -102,7 +102,7 @@ function App() {
                         <h4 className='articles-head'>
                             <a href='#'>
                                 Título de la noticia
-                                </a>
+                            </a>
                         </h4>
 
                         <p className='articles-description'>
@@ -124,7 +124,7 @@ function App() {
                         <h4 className='articles-head'>
                             <a href='#'>
                                 Título de la noticia
-                                </a>
+                            </a>
                         </h4>
 
                         <p className='articles-description'>
@@ -146,7 +146,7 @@ function App() {
                         <h4 className='articles-head'>
                             <a href='#'>
                                 Título de la noticia
-                                </a>
+                            </a>
                         </h4>
 
                         <p className='articles-description'>
@@ -168,7 +168,7 @@ function App() {
                         <h4 className='articles-head'>
                             <a href='#'>
                                 Título de la noticia
-                                </a>
+                            </a>
                         </h4>
 
                         <p className='articles-description'>
@@ -190,7 +190,7 @@ function App() {
                         <h4 className='articles-head'>
                             <a href='#'>
                                 Título de la noticia
-                                </a>
+                            </a>
                         </h4>
 
                         <p className='articles-description'>

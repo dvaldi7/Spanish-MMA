@@ -124,4 +124,27 @@
     @apply w-10/12 h-60 mx-auto mt-5 pt-1 bg-white shadow-box
                     mb-7;
   }
+
+  .login-icon{
+    @apply symbol text-center absolute ml-7 mt-1 h-8
+  }
+
+  .login-input{
+    @apply block mx-auto mt-5 w-10/12 h-8 border-gray-300 border
+                            shadow-inner pl-7 rounded-md text-gray-500 transition duration-300 outline-none 
+                            focus:outline-none focus:text-gray-600;
+  }
+
+  .login-btn{
+    font-family: "TrebuchetMS";
+    @apply w-24 h-8 mt-5 ml-5 mb-5 text-center
+                            text-black text-base border border-custom-red cursor-pointer font-medium rounded-none 
+                            bg-gradient-to-b from-custom-red to-custom-gold transition duration-300
+                            hover:shadow-md
+  }
+
+  .login-link{
+    @apply block w-full text-sm hover:underline hover:text-custom-red text-center
+                            text-gray-600
+  }
 }

@@ -31,10 +31,13 @@ function App() {
                     <h3 className='aside-header'>
                         BUSCAR
                     </h3>
-                    <div id='search'>
+                    <div id='search' className='w-11/12 m-2.5 mx-auto h-7 bg-white border border-gray-200
+                    rounded shadow-inner'>
                         <form>
-                            <input type='text' />
-                            <input type='button' value="Buscar" />
+                            <input type='text' className='w-10/12 h-6 border-none pl-1.5 rounded-md
+                            bg-transparent text-gray-600 transition duration-300 outline-none focus:outline-none'/>
+                            <input type='button' value="L" className='symbol h-6 cursor-pointer text-base
+                            bg-transparent border-none text-gray-500 pl-2'/>
 
                         </form>
                     </div>

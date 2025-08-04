@@ -51,8 +51,8 @@ function App() {
                             <label htmlFor='password' className='login-icon text-xl ml-7 mt-6'>w</label>
                             <input type='password' id='password' className='login-input' />
 
-                            <input type='submit' value="Entrar" className='login-btn'/>
-                            <input type='reset' value="Limpiar" className='login-btn ml-1'/>
+                            <input type='submit' value="Entrar" className='login-btn' />
+                            <input type='reset' value="Limpiar" className='login-btn ml-1' />
 
                             <a href='#' className='login-link'>Regístrate aquí</a>
                             <a href='#' className='login-link'>¿Has olvidado tu contraseña?</a>
@@ -60,21 +60,30 @@ function App() {
                     </div>
 
                     <h3 className='aside-header'>REDES SOCIALES</h3>
-                    <div id='social-media' className='aside-box'>
+                    <div id='social-media' className='aside-box h-48'>
 
-                        <div className='twitter'>
-                            <a href='#'>Twitter</a>
-                            <p>Twitter</p>
+                        <div className='group twitter'>
+                            <a href='#' className='social-icon'>t</a>
+                            <p className='social-overlay
+                            group-hover:opacity-100 group-hover:transfor group-hover:translate-x-1'>
+                                Twitter
+                            </p>
                         </div>
 
-                        <div className='facebook'>
-                            <a href='#'>Facebook</a>
-                            <p>Facebook</p>
+                        <div className='group facebook'>
+                            <a href='#' className='social-icon'>f</a>
+                            <p className='social-overlay
+                            group-hover:opacity-100 group-hover:transfor group-hover:translate-x-1'>
+                                Facebook
+                            </p>
                         </div>
 
-                        <div className='youtube'>
-                            <a href='#'>Youtube</a>
-                            <p>Youtube</p>
+                        <div className='group youtube'>
+                            <a href='#' className='social-icon'>y</a>
+                            <p className='social-overlay
+                            group-hover:opacity-100 group-hover:transfor group-hover:translate-x-1'>
+                                Youtube
+                            </p>
                         </div>
                     </div>
 

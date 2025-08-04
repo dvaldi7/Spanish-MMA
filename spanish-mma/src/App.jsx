@@ -24,10 +24,10 @@ function App() {
             {/* FIN INFORMACIÓN */}
 
             {/* INICIO CONTENIDO PRINCIPAL */}
-            <main className='container w-11/12 flex flex-row mx-auto mt-5'>
+            <main className='container w-11/12 flex flex-row mx-auto mt-5 xs:flex-col md_flex-row'>
                 {/* INICIO BARRA LATERAL */}
 
-                <aside id='lateral' className='order-2 flex-none w-72 min-h-full mt-5'>
+                <aside id='lateral' className='order-2 flex-none w-72 min-h-full mt-5 xs:w-full xs:m-0'>
                     <h3 className='aside-header'>
                         BUSCAR
                     </h3>
@@ -96,7 +96,7 @@ function App() {
                 {/* FIN BARRA LATERAL */}
 
                 {/* INICIO ARTÍCULOS */}
-                <section className='order-1 flex-grow mr-10 mt-5'>
+                <section className='order-1 flex-grow mr-10 mt-5 xs:w-full xs:mr-0'>
                     <h2 className='articles-header'>
                         Últimas noticias
                     </h2>

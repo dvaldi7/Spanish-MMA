@@ -119,4 +119,9 @@
     @apply block h-11 leading-10 shadow-header3D text-3xl font-medium
                     tracking-wide pl-3.5 pt-1 mb-3.5 border ;
   }
+
+  .aside-box{
+    @apply w-10/12 h-60 mx-auto mt-5 pt-1 bg-white shadow-box
+                    mb-7;
+  }
 }

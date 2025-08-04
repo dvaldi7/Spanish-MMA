@@ -40,7 +40,7 @@ function App() {
                     </div>
 
                     <h3 className='aside-header'>LOGIN</h3>
-                    <div id='login'>
+                    <div id='login' className='aside-box'>
                         <form>
                             <label htmlFor="email">Usuario </label>
                             <input type='email' id='email' />
@@ -57,7 +57,7 @@ function App() {
                     </div>
 
                     <h3 className='aside-header'>REDES SOCIALES</h3>
-                    <div id='social-media'>
+                    <div id='social-media' className='aside-box'>
 
                         <div className='twitter'>
                             <a href='#'>Twitter</a>
@@ -76,7 +76,7 @@ function App() {
                     </div>
 
                     <h3 className='aside-header'>PATROCINADORES</h3>
-                    <div id='sponsors'>
+                    <div id='sponsors' className='aside-box'>
 
                     </div>
 

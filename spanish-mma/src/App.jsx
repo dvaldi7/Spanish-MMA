@@ -40,11 +40,11 @@ function App() {
 
                     <div id='menu-footer' className='footer-box'>
                         <h5 className='footer-header'>MENÚ</h5>
-                        <ul>
+                        <ul className='footer-menu'>
                             <li><a href='#'>INICIO</a></li>
-                            <li><a href='#'>BLOG</a></li>
-                            <li><a href='#'>FORMACIÓN</a></li>
-                            <li><a href='#'>CONTACTO</a></li>
+                            <li><a href='#'>PELEADORES</a></li>
+                            <li><a href='#'>COMPAÑÍAS</a></li>
+                            <li><a href='#'>EVENTOS</a></li>
                         </ul>
                     </div>
 

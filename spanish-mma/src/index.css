@@ -169,4 +169,16 @@
     @apply last:tracking-wide text-center text-4xl text-black rounded-md
                         mb-4 p-2
   }
+
+  .footer-menu{
+    @apply  text-left m-5 text-2xl
+  }
+
+  .footer-menu li{
+    @apply mt-3 p-1 border-b-2 border-gray-400 transition duration-300;
+  }
+
+  .footer-menu li a{
+    @apply block h-10 transition duration-300 text-red-600 hover:text-custom-gold hover:bg-custom-red
+  }
 }

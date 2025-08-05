@@ -181,4 +181,8 @@
   .footer-menu li a{
     @apply block h-10 transition duration-300 text-red-600 hover:text-custom-gold hover:bg-custom-red
   }
+
+  .footer-logo{
+    @apply  mx-auto h-11 mb-2 mt-10
+  }
 }

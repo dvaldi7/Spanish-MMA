@@ -157,4 +157,16 @@
                             tracking-wide shadow-md border-4 border-white absolute opacity-0 bg-gray-100
                             transition duration-300 transform -translate-x-3/4 cursor-pointer
   }
+
+  .footer-box{
+    font-family: "TrebuchetMS";
+    @apply flex-1 w-80 h-96 m-10 text-center text-white
+  }
+
+  .footer-header{
+    font-family: "BebasNeue";
+    background: url("pxgray.png"), white;
+    @apply last:tracking-wide text-center text-4xl text-black rounded-md
+                        mb-4 p-2
+  }
 }

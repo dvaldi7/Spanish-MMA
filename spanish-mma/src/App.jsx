@@ -37,7 +37,8 @@ function App() {
             {/* FOOTER */}
             <footer id='footer' className='w-full h-auto bg-black text-white overflow-hidden'>
 
-                <div className='container mx-auto flex flex-row w-11/12'>
+                <div className='container mx-auto flex flex-row w-11/12
+                xs:flex-col md:flex-col lg:flex-row'>
 
                     <div id='menu-footer' className='footer-box'>
                         <h5 className='footer-header'>MENÚ</h5>

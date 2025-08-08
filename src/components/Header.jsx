@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import octagonoImage from '/octagono.png';
 
 export const Header = () => {
     return (
@@ -20,7 +21,7 @@ export const Header = () => {
 
                             <span className='block float-left ml-11 mt-5 animation group-hover:scale-125
                             group-hover:animate-from-bellow'>
-                                <img src='/octagono.png' />
+                                <img src={octagonoImage} alt='octogono' />
                             </span>
 
                             <h3 className='block text-3xl mt-1.5 ml-7 float-right mr-16 transition duration-100

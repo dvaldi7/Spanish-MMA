@@ -83,7 +83,7 @@
 
   .articles-header{
     font-family: "BebasNeue";
-    background: url("pxgray.png"), white;
+    background: url("/pxgray.png"), white;
     @apply w-full h-20 block text-center text-4xl font-medium tracking-widest pt-5 border shadow-header3D
   }
 
@@ -115,7 +115,7 @@
 
   .aside-header{
     font-family: "BebasNeue";
-    background: url("pxgray.png"), white;
+    background: url("/pxgray.png"), white;
     @apply block h-11 leading-10 shadow-header3D text-3xl font-medium
                     tracking-wide pl-3.5 pt-1 mb-3.5 border ;
   }
@@ -166,7 +166,7 @@
 
   .footer-header{
     font-family: "BebasNeue";
-    background: url("pxgray.png"), white;
+    background: url("/pxgray.png"), white;
     @apply last:tracking-wide text-center text-4xl text-black rounded-md
                         mb-4 p-2
   }

@@ -4,6 +4,10 @@ import { Link } from 'react-router-dom';
 import { Header } from './components/Header';
 import { Banner } from './components/Banner';
 import { Cards } from './components/Cards';
+import { Aside } from './components/Aside';
+import { Articles } from './components/Articles';
+import { Footer } from './components/Footer';
+
 
 
 
@@ -11,87 +15,29 @@ function App() {
 
     return (
         <div className='bg-body-pattern bg-scroll min-h-screen'>
-
-            {/* INICIO HEADER */}
             <Header />
-            {/*FIN HEADER */}
 
-            {/* INICIO INFORMACIÓN */}
+            {/* INFORMACIÓN */}
             <section className='container w-11/12 mx-auto'>
-
-                {/* INICIO BANNER */}
                 <Banner />
-                {/* FIN BANNER */}
 
-                {/* INICIO TARJETAS */}
                 <Cards />
-                {/* FIN TARJETAS */}
-
             </section >
-            {/* FIN INFORMACIÓN */}
 
-            {/* INICIO CONTENIDO PRINCIPAL */}
-            <main>
+            {/* CONTENIDO PRINCIPAL */}
+            <main className='container w-11/12 flex flex-row mx-auto mt-5 xs:flex-col md_flex-row'>
+                {/*BARRA LATERAL */}
+                <Aside />
 
-                <aside id='lateral'>
-                    <h3>BUSCAR</h3>
-                    <div id='search'>
-                        <form>
-                            <input type='text' />
-                            <input type='button' value="Buscar" />
-
-                        </form>
-                    </div>
-
-                    <h3>LOGIN</h3>
-                    <div id='login'>
-                        <form>
-                            <label for="email">Usuario </label>
-                            <input type='email' id='email' />
-
-                            <label for='password' >Contraseña </label>
-                            <input type='password' id='password' />
-
-                            <input type='submit' value="Entrar" />
-                            <input type='reset' value="Limpiar" />
-
-                            <a href='#'>Regístrate aquí</a>
-                            <a href='#'>¿Has olvidado tu contraseña?</a>
-                        </form>
-                    </div>
-
-                    <h3>REDES SOCIALES</h3>
-                    <div id='social-media'>
-
-                        <div className='twitter'>
-                            <a href='#'>Twitter</a>
-                            <p>Twitter</p>
-                        </div>
-
-                        <div className='facebook'>
-                            <a href='#'>Facebook</a>
-                            <p>Facebook</p>
-                        </div>
-
-                        <div className='youtube'>
-                            <a href='#'>Youtube</a>
-                            <p>Youtube</p>
-                        </div>
-                    </div>
-
-                    <h3>PATROCINADORES</h3>
-                    <div id='sponsors'>
-
-                    </div>
-
-                </aside>
-
-                <section>
-
-                </section>
-
+                {/*ARTÍCULOS */}
+                <Articles />
             </main>
-            {/* FIN CONTENIDO PRINCIPAL */}
+
+            {/* FOOTER */}
+            <footer id='footer' className='w-full h-auto bg-black text-white 
+            overflow-hidden'>
+                <Footer />
+            </footer>
         </div >
     )
 }

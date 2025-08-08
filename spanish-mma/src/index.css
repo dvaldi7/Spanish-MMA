@@ -51,7 +51,7 @@
 
   /* ESTILOS DEL MENU */
   .menu-item {
-    @apply mr-5 ml-5 tracking-wider flex-none xs:flex-1;
+    @apply mr-5 ml-5 tracking-wider flex-none xs:flex-1 xs:text-base xs:m-0;
   }
 
   .menu-item-a {
@@ -68,7 +68,7 @@
   .card-icon {
     font-family: "WebSymbolsRegular";
     @apply block w-full h-32 text-5xl text-center mt-12 mx-auto transition duration-300 md:mt-3 lg:mt-12 md:h-20
-    lg:h-32 xs:mt-3 xs:h-20 xs:text-center
+    lg:h-32 xs:mt-3 xs:h-20
   }
 
   .card-category{
@@ -79,5 +79,111 @@
   .card-description{
     @apply text-center text-custom-red text-base transition duration-300 mt-4 lg:text-sm lg:mt-1 lg:block 
     md:hidden xl:text-base xl:mt-1 xs:hidden
+  }
+
+  .articles-header{
+    font-family: "BebasNeue";
+    background: url("pxgray.png"), white;
+    @apply w-full h-20 block text-center text-4xl font-medium tracking-widest pt-5 border shadow-header3D
+  }
+
+  .articles-item{
+    @apply w-full h-auto border border-gray-200 m-10 mx-auto p-2.5 bg-white 
+                    text-black shadow-md 
+  }
+
+  .articles-data{
+    @apply float-right bg-gray-800 h-10 leading-6 p-2 text-white -m-2.5
+                        text-sm rounded-bl-lg xs:mb-5 xs:float-none;
+  }
+
+  .articles-data span{
+    @apply m-2.5;
+  }
+
+  .articles-head{
+    @apply block text-2xl m-1 ;
+  }
+
+  .articles-head a{
+    @apply font-semibold text-custom-red hover:underline;
+  }
+
+  .articles-description{
+    @apply block mt-3 mb-3 font-sans font-normal text-base;
+  }
+
+  .aside-header{
+    font-family: "BebasNeue";
+    background: url("pxgray.png"), white;
+    @apply block h-11 leading-10 shadow-header3D text-3xl font-medium
+                    tracking-wide pl-3.5 pt-1 mb-3.5 border ;
+  }
+
+  .aside-box{
+    @apply w-10/12 max-w-sm h-60 mx-auto mt-5 pt-1 bg-white shadow-box
+                    mb-7 xs:w-60;
+  }
+
+  .login-icon{
+    @apply symbol text-center absolute ml-7 mt-1 h-8
+  }
+
+  .login-input{
+    @apply block mx-auto mt-5 w-10/12 h-8 border-gray-300 border
+                            shadow-inner pl-7 rounded-md text-gray-500 transition duration-300 outline-none 
+                            focus:outline-none focus:text-gray-600;
+  }
+
+  .login-btn{
+    font-family: "TrebuchetMS";
+    @apply w-24 h-8 mt-5 ml-5 mb-5 text-center
+                            text-black text-base border border-custom-red cursor-pointer font-medium rounded-none 
+                            bg-gradient-to-b from-custom-red to-custom-gold transition duration-300
+                            hover:shadow-md
+  }
+
+  .login-link{
+    @apply block w-full text-sm hover:underline hover:text-custom-red text-center
+                            text-gray-600
+  }
+
+  .social-icon{
+    @apply symbol block text-gray-700 text-3xl mt-3 mb-5 ml-5
+  }
+
+  .social-overlay{
+    @apply block h-10 pl-2 pr-2 pt-1 ml-16 -mt-14 font-sans font-bold
+                            tracking-wide shadow-md border-4 border-white absolute opacity-0 bg-gray-100
+                            transition duration-300 transform -translate-x-3/4 cursor-pointer
+  }
+
+  .footer-box{
+    font-family: "TrebuchetMS";
+    @apply flex-1 w-80 h-96 m-10 text-center text-white xs:w-11/12 xs:mx-auto md:w-11/12 md:mx-auto lg:w-80
+    lg:m-10 md:mt-3 xs:mt-3
+  }
+
+  .footer-header{
+    font-family: "BebasNeue";
+    background: url("pxgray.png"), white;
+    @apply last:tracking-wide text-center text-4xl text-black rounded-md
+                        mb-4 p-2
+  }
+
+  .footer-menu{
+    @apply  text-left m-5 text-2xl
+  }
+
+  .footer-menu li{
+    @apply mt-3 p-1 border-b-2 border-gray-400 transition duration-300;
+  }
+
+  .footer-menu li a{
+    @apply block h-10 transition duration-300 text-red-600 hover:text-custom-gold hover:bg-custom-red
+  }
+
+  .footer-logo{
+    @apply  mx-auto h-11 mb-2 mt-10
   }
 }

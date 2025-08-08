@@ -46,7 +46,7 @@ export const Cards = () => {
                 </p>
             </div>
 
-            <div className='card group'>
+           {/* <div className='card group'>
                 <span className='card-icon  group-hover:text-custom-gold group-hover:text-7xl
                         group-hover:animate-show-card-icon transform group-hover:scale-125 md:group-hover:mb-5
                         xs:group-hover:scale-50'>@</span>
@@ -74,6 +74,7 @@ export const Cards = () => {
                     Sigue a los mejores divulgadores de las MMA
                 </p>
             </div>
+            */}
         </div>
     )
 }

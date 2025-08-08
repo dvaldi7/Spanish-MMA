@@ -51,7 +51,7 @@
 
   /* ESTILOS DEL MENU */
   .menu-item {
-    @apply mr-5 ml-5 tracking-wider flex-none xs:flex-1;
+    @apply mr-5 ml-5 tracking-wider flex-none xs:flex-1 xs:text-base xs:m-0;
   }
 
   .menu-item-a {
@@ -89,12 +89,12 @@
 
   .articles-item{
     @apply w-full h-auto border border-gray-200 m-10 mx-auto p-2.5 bg-white 
-                    text-black shadow-md
+                    text-black shadow-md 
   }
 
   .articles-data{
     @apply float-right bg-gray-800 h-10 leading-6 p-2 text-white -m-2.5
-                        text-sm rounded-bl-lg;
+                        text-sm rounded-bl-lg xs:mb-5 xs:float-none;
   }
 
   .articles-data span{
@@ -102,7 +102,7 @@
   }
 
   .articles-head{
-    @apply block text-2xl m-1;
+    @apply block text-2xl m-1 ;
   }
 
   .articles-head a{

@@ -51,7 +51,7 @@
 
   /* ESTILOS DEL MENU */
   .menu-item {
-    @apply mr-5 ml-5 tracking-wider flex-none xs:flex-1 xs:text-base xs:m-0;
+    @apply mr-5 ml-5 tracking-wider flex-none xs:flex-1 xs:text-base xs:m-0 xxs:text-xs;
   }
 
   .menu-item-a {
@@ -62,7 +62,7 @@
   .card {
     @apply flex-1 h-80 border-2 border-gray-200 shadow-md bg-white overflow-hidden m-5 pl-5 pr-5 mt-10 
       cursor-pointer transition duration-300 hover:bg-custom-red md:h-40 md:m-2 lg:h-80 lg:m-5 xs:h-40
-      xs:m-2 
+      xs:m-2 xxs:pl-3 xxs:m-1
   }
 
   .card-icon {
@@ -73,7 +73,7 @@
 
   .card-category{
     @apply w-full h-12 text-xl font-bold text-center text-custom-red transition duration-300  lg:text-lg
-    md:text-base md:h-6 lg:h-12 xs:text-xxs xs:h-6 
+    md:text-base md:h-6 lg:h-12 xs:text-xxs xs:h-6 ;
   }
 
   .card-description{

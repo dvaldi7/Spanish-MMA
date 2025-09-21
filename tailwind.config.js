@@ -8,6 +8,7 @@ export default {
     extend: {
       screens: {
         'xs': { 'max': '768px' },
+        'xxs': {'max': '400px' },
       },
 
       backgroundImage: {

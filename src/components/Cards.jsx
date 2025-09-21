@@ -7,7 +7,7 @@ export const Cards = () => {
             <div className='card group'>
                 <span className='card-icon group-hover:text-custom-gold group-hover:text-7xl 
                        group-hover:animate-show-card-icon transform  xs:group-hover:scale-75 group-hover:scale-125
-                       md:group-hover:mb-5 '>U</span>
+                       md:group-hover:mb-5 xxs:group-hover:text-4xl'>U</span>
 
                 <h2 className='card-category group-hover:text-custom-gold xs:group-hover:mt-5
                         group-hover:animate-show-card-category'>
@@ -21,7 +21,7 @@ export const Cards = () => {
             <div className='card group'>
                 <span className='card-icon  group-hover:text-custom-gold transform group-hover:scale-125
                         group-hover:animate-show-card-icon md:group-hover:mb-5
-                        xs:group-hover:scale-75'>K</span>
+                        xs:group-hover:scale-75 xxs:group-hover:text-4xl'>K</span>
 
                 <h2 className='card-category group-hover:text-custom-gold xs:group-hover:mt-4
                         group-hover:animate-show-card-category'>
@@ -35,7 +35,7 @@ export const Cards = () => {
             <div className='card group'>
                 <span className='card-icon group-hover:text-custom-gold group-hover:text-7xl
                         group-hover:animate-show-card-icon transform group-hover:scale-125 
-                        md:group-hover:mb-5 xs:group-hover:scale-50'>I</span>
+                        md:group-hover:mb-5 xs:group-hover:scale-50 xxs:group-hover:text-4xl'>I</span>
 
                 <h2 className='card-category group-hover:text-custom-gold xs:group-hover:mt-5
                         group-hover:animate-show-card-category'>
